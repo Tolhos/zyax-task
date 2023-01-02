@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { I } from "styled-icons/fa-solid";
 
 interface ILoginSubmitProps {
 	onIsLoggedInChange: (isLoggedIn: boolean) => void;

@@ -35,10 +35,7 @@ export const LoginView = ({ onIsLoggedInChange }: ILoginView) => {
 		<LoginContainer>
 			<form>
 				<Header>USER LOGIN</Header>
-				<InputField
-					type="username"
-					// onBlur={() => setIsValidEmail(checkIsValidEmail(email))}
-				>
+				<InputField type="username">
 					<span>
 						<User />
 					</span>
@@ -56,7 +53,6 @@ export const LoginView = ({ onIsLoggedInChange }: ILoginView) => {
 					</span>
 					<input
 						placeholder="Password"
-						// onBlur={() => setIsValidPassword(checkIsValidPassword)}
 						type="password"
 						value={password}
 						onChange={handlePasswordInput}
