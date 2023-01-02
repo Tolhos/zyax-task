@@ -2,7 +2,7 @@
 
 ## INFO
 
-The project can be started by running the following command:
+The project can be started by running the following commands:
 
 `npm i`
 
