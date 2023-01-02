@@ -1,0 +1,42 @@
+{
+	"private": true,
+	"name": "frontend-exercise",
+	"version": "2.0.0",
+	"description": " frontend exercise",
+	"author": "Tolunay Hos",
+	"license": "ISC",
+	"scripts": {
+		"start": "parcel index.html",
+		"test": "jest --coverage"
+	},
+	"dependencies": {
+		"babel-jest": "^29.3.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"styled-components": "^5.3.6",
+		"styled-icons": "^10.47.0",
+		"ts-jest": "^29.0.3"
+	},
+	"devDependencies": {
+		"@babel/preset-react": "^7.18.6",
+		"@babel/preset-typescript": "^7.18.6",
+		"@parcel/config-default": "^2.6.0",
+		"@parcel/transformer-typescript-tsc": "^2.6.0",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@types/jest": "^29.2.5",
+		"@types/react": "^18.0.13",
+		"@types/react-dom": "^18.0.5",
+		"@types/styled-components": "^5.1.26",
+		"@types/testing-library__react": "^10.2.0",
+		"jest": "^29.3.1",
+		"jest-environment-jsdom": "^29.3.1",
+		"parcel": "^2.6.0",
+		"process": "^0.11.10",
+		"typescript": "^4.7.3"
+	},
+	"engines": {
+		"node": "^14.8 || ^16",
+		"npm": "^6.14.8 || >8"
+	}
+}
